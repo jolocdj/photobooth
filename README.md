@@ -27,6 +27,8 @@ An underwater-themed photobooth web application built with vanilla HTML, CSS, an
 
 3. Allow camera access when prompted.
 
+4. Enjoy!
+
 ## License
 
 This project is licensed for **educational and personal use only**.  
