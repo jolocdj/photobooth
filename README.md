@@ -1,4 +1,4 @@
-# Underwater Photobooth Web App 🐠
+# AJ's Photobooth Web App 🐠
 
 An underwater-themed photobooth web application built with vanilla HTML, CSS, and JavaScript. Add cute sea creatures and bubbles to your photos and download them as a photo strip🐡
 
