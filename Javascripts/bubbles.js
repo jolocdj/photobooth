@@ -3,13 +3,11 @@ const bubbleContainer = document.querySelector(".bubble-container");
 
 // get images
 const bubbleImages = [
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble4.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble1.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble2.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble3.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble4.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble5.png",
-  "../Assets/fish-photobooth/camerapage/bubbles/bubble4.png"
+  "Assets/fish-photobooth/bubble1.png",
+  "Assets/fish-photobooth/bubble2.png",
+  "Assets/fish-photobooth/bubble3.png",
+  "Assets/fish-photobooth/bubble4.png",
+  "Assets/fish-photobooth/bubble5.png",
 ];
 
 // create bubble
@@ -26,7 +24,10 @@ const createBubble = () => {
   bubble.style.animationDuration = duration + "s";
 
   // random final opacity
-  bubble.addEventListener("animationend", () => bubble.style.opacity = 0.2 + Math.random() * 0.8);
+  bubble.addEventListener(
+    "animationend",
+    () => (bubble.style.opacity = 0.2 + Math.random() * 0.8),
+  );
 
   bubbleContainer.appendChild(bubble);
 
