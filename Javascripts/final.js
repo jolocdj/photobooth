@@ -161,10 +161,7 @@ downloadBtn.addEventListener("click", () => {
 });
 
 // home
-homeBtn.addEventListener(
-  "click",
-  () => (window.location.href = "/photobooth-webapp"),
-);
+homeBtn.addEventListener("click", () => (window.location.href = "/"));
 // logo
 document.addEventListener("DOMContentLoaded", () => {
   const logo = document.querySelector(".logo");
