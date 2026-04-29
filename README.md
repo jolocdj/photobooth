@@ -33,7 +33,7 @@ An underwater-themed photobooth web application built with vanilla HTML, CSS, an
 
 3. Allow camera access when prompted.
 
-4. Enjoy!
+4. Enjoy and have fun!
 
 ## License
 
